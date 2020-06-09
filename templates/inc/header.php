@@ -17,9 +17,10 @@
                     <a class="nav-link active" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Create List</a>
+                    <a class="nav-link" href="create.php">Create List</a>
                 </li>
             </ul>
         </nav>
         <h3 class="text-muted"><?php echo SITE_TITLE; ?></h3>
     </div>
+    <?php displayMessage(); ?>
